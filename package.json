@@ -1,0 +1,22 @@
+{
+  "name": "amethyst-nextcloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "''",
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "stylelint **/*.scss",
+    "lint:fix": "stylelint **/*.scss --fix",
+    "compile": "node-sass scss/main.scss -o css/ --output-style compressed"
+  },
+  "author": "kiosion",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "node-sass": "^7.0.1",
+    "stylelint": "^14.9.1",
+    "stylelint-config-standard-scss": "^4.0.0",
+    "stylelint-scss": "^4.2.0"
+  }
+}
